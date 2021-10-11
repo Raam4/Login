@@ -37,7 +37,7 @@ $data = data_submitted();
                                     <label for="floatingPassword">Contraseña</label>
                                 </div>
                                 <?php
-                                    if(isset($data['noval'])){
+                                    if(isset($data['errorcred'])){
                                         echo "<div>
                                                 <label>Usuario y/o contraseña inválidos.</label>
                                             </div>";
